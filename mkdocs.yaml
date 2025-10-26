@@ -1,0 +1,31 @@
+site_name: BooLe Mobile App API Documentation
+site_description: REST API documentation for BooLe Apps built with Supabase
+site_author: Sande Okta Effendi
+repo_url: https://github.com/<username>/boole-mobile-app-api
+theme:
+  name: material
+  logo: https://supabase.com/images/logo.png
+  favicon: https://supabase.com/favicon.ico
+  palette:
+    primary: teal
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - content.code.annotate
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/<username>
+    - icon: fontawesome/solid/envelope
+      link: mailto:your.email@example.com
